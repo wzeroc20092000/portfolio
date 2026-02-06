@@ -1,0 +1,681 @@
+
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keyword" content="進研ゼミ,小学講座,benesse,ベネッセ,小学生,学習,勉強,学校,授業,国語,算数,理科,社会,英語,チャレンジウェブ,チャレンジウエブ,ちゃれんじうぇぶ,チヤレンジウエブ,チャレンジ1年生,チャレンジ2年生,チャレンジ3年生,チャレンジ4年生,チャレンジ5年生,チャレンジ6年生,クイズ,ゲーム,マンガ">
+  <meta name="description" content="ベネッセ「進研ゼミ小学講座（チャレンジ）」の小学生向けサイト。クイズやゲーム、ムービーなどで楽しく勉強できる！ 「コラショ」「編集室」などのキャラクターのコーナーもたくさんあるよ。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鬼チャレンジャー｜進研ゼミ小学講座｜チャレンジウェブ</title>
+  <link rel="stylesheet" href="/sho/common/css/style.css">
+  <link rel="stylesheet" href="./css/plugin/perfect-scrollbar.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="taimeg" class="page" oncontextmenu="return false;">
+<header>
+  <!-- ベネッセヘッダー領域 -->    
+</header>
+<div class="wrapper-ct-vertical-fixed">
+  <!--#include virtual="/sho/includes/back.shtml" -->
+  <main class="container">
+  <div id="error">
+    <div class="error-content">
+      <div class="error-head">ERROR</div>
+      <div class="error-content__inner">
+        エラーが発生しました。<br>
+        <div class="error-code">エラー番号：<span class="error-num"></span></div>
+        <div class="error-message"></div>
+        <div class="modal-btns"><a href="https://ct2.benesse.ne.jp/open/common/redirect/index.html" class="btn btn-home">ホームへもどる</a></div>
+      </div>
+    </div>
+  </div>
+  <section class="page-item" id="page-top">
+    <div class="page-center">
+      <div class="logo"><img src="./img/home/logo.png" alt=""></div>
+      <div class="main_l">
+        <button class="challenge1 is_play">
+          <img src="./img/btn/challenge1_a.png" alt="">
+          <div class="star_1"></div>
+          <div class="star_2"></div>
+          <div class="star_3"></div>
+          <div class="star_4"></div>
+          <div class="star_5"></div>
+          <div class="star_6"></div>
+        </button>
+        <button class="challenge2">
+          <img src="./img/btn/challenge2_b.png" alt="">
+          <div class="star_7"></div>
+          <div class="star_8"></div>
+          <div class="star_9"></div>
+          <div class="star_10"></div>
+          <div class="star_11"></div>
+          <div class="star_12"></div>
+        </button>
+        <button class="challenge3">
+          <img src="./img/btn/challenge3_b.png" alt="">
+          <div class="star_13"></div>
+          <div class="star_14"></div>
+          <div class="star_15"></div>
+          <div class="star_16"></div>
+          <div class="star_17"></div>
+          <div class="star_18"></div>
+        </button>
+        <button class="challenge4">
+          <img src="./img/btn/challenge4_b.png" alt="">
+          <div class="star_19"></div>
+          <div class="star_20"></div>
+          <div class="star_21"></div>
+          <div class="star_22"></div>
+          <div class="star_23"></div>
+          <div class="star_24"></div>
+        </button>
+        <button class="challenge5">
+          <img src="./img/btn/challenge5_b.png" alt="">
+          <div class="star_25"></div>
+          <div class="star_26"></div>
+          <div class="star_27"></div>
+          <div class="star_28"></div>
+          <div class="star_29"></div>
+          <div class="star_30"></div>
+        </button>
+        <div class="nokori">
+          <div class="nokori_cnt"></div>
+        </div>
+      </div>
+      <div class="main_r">
+        <div class="btn_wrap">
+          <button class="btn_ending"><img src="./img/btn/btn_ep.png" alt=""></button>
+          <button class="btn_story"><img src="./img/btn/btn_story.png" alt=""></button>
+          <button class="btn_howto"><img src="./img/btn/btn_howto.png" alt=""></button>
+        </div>
+        <button class="bth_hiden_1"><img src="./img/btn/bth_hiden_1_b.png" alt=""></button>
+        <button class="bth_hiden_2"><img src="./img/btn/bth_hiden_2_b.png" alt=""></button>
+        <div class="gohoubi_wrap">
+          <button class="gohoubi"><img src="./img/home/gohoubi.png" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-start">
+  <div class="ptn1_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <img class="m_close" src="./img/start/char/main.png">
+          <img class="m_open" src="./img/start/char/main_b.png">
+        </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/start/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/start/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="start_next">
+            <img src="./img/start/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ptn2_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="char_1">
+          <img src="./img/start/char/main2.png" alt="">
+        </div>
+        <div class="char_2">
+          <img class="m_close" src="./img/start/char/chourou.png">
+          <img class="m_open" src="./img/start/char/chourou_b.png">
+        </div>
+        <div class="effect">
+          <img src="./img/start/effect/effect_1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/start/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/start/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="start_next">
+            <img src="./img/start/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn3_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <img class="m_close" src="./img/start/char/main_3.png">
+          <img class="m_open" src="./img/start/char/main_3_b.png">
+          <img class="m_back" src="./img/start/char/main_3_b.png">
+        </div>
+        <div class="bg_light">
+          <img src="./img/start/effect/bg_light.png" alt="">
+        </div>
+        <div class="star">
+          <img src="./img/start/effect/star.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/start/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/start/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="start_next">
+            <img src="./img/start/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn4_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <img class="m_close" src="./img/start/char/chourou_2.png">
+          <img class="m_open" src="./img/start/char/chourou_2_b.png">
+        </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/start/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/start/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="start_next">
+            <img src="./img/start/btn/bun_next.png" alt="">
+          </button>
+          <button class="start_end">
+            <img src="./img/start/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="page-item" id="page-ending">
+  <div class="ptn1_wrap show">
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <img src="./img/ending/char/combi_1.png">
+        </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap"></div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn2_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <img class="m_close" src="./img/ending/char/combi_4.png">
+        <img class="m_open" src="./img/ending/char/combi_6.png" style="display: none;">
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/ending/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn3_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <img class="m_close" src="./img/ending/char/combi_4.png">
+        <img class="m_open" src="./img/ending/char/combi_5.png" style="display: none;">
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/ending/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn4_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <img src="./img/ending/char/combi_3.png">
+      </div>
+      <div class="flash_area"> 
+        <img class="flash" src="./img/ending/effect/flash.png">
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/ending/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn5_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <img class="m_close" src="./img/ending/char/char_1.png">
+        <img class="m_open" src="./img/ending/char/char_2.png" style="display: none;">
+        <img class="effect_2" src="./img/ending/effect/effect_2.png" style="display: none;">
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/ending/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ptn6_wrap">
+    <div class="page-center">
+      <div class="main_wrap">
+        <img class="m_close" src="./img/ending/char/char_3.png">
+        <img class="m_open" src="./img/ending/char/char_4.png" style="display: none;">
+        <img class="effect_3" src="./img/ending/effect/effect_3.png" style="display: none;">
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="main_wrap">
+        <div class="char_icon_wrap">
+          <img src="./img/ending/txt/main_char.png" alt="">
+        </div>        
+        <div class="txt_wrap">
+          <img src="./img/ending/txt/txt_1.png" alt="">
+        </div>        
+        <div class="btn_wrap">
+          <button class="ending_next">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+          <button class="ending_end">
+            <img src="./img/ending/btn/bun_next.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="page-item" id="page-howto">
+  <div class="page-header">
+    <button class="back">
+      <img src="./img/btn/btn_topBack.png" alt="">
+    </button>
+    <div class="ttl">
+    </div>
+    <div class="use">
+    </div>
+  </div>
+  <div class="page-center">
+    <div class="main_wrap">
+      <div class="main">
+        <div class="kokuchi">
+          <img src="./img/home/howto.png" alt="">
+        </div>
+      </div>
+    </div>
+    <button class="howto_next">
+      <img src="./img/start/btn/bun_next.png" alt="">
+    </button>
+  </div>
+</section>
+
+  <section class="page-item" id="page-hiden1">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+    </div>
+    <div class="page-center">
+      <div class="makimono">
+        <img src="./img/hiden/hiden1_bg.png" alt="">
+      </div>
+      <div class="main_wrap">
+        <div class="main">
+          <div class="hiden_1">
+              <img src="./img/hiden/hiden1_ttl.png" alt="">
+              <div class="kokoro_1"></div>
+              <div class="kokoro_2"></div>
+              <div class="kokoro_3"></div>
+              <div class="kokoro_4"></div>
+              <div class="kokoro_5"></div>
+              <div class="kokoro_6"></div>
+          </div>
+          <div class="hiden_2">
+            <img src="./img/hiden/hiden2_ttl.png" alt="">
+            <div class="kokoro_7"></div>
+            <div class="kokoro_8"></div>
+            <div class="kokoro_9"></div>
+            <div class="kokoro_10"></div>
+            <div class="kokoro_11"></div>
+            <div class="kokoro_12"></div>
+          </div>
+          <div class="hiden_3">
+            <img src="./img/hiden/hiden3_ttl.png" alt="">
+            <div class="kokoro_13"></div>
+            <div class="kokoro_14"></div>
+            <div class="kokoro_15"></div>
+            <div class="kokoro_16"></div>
+            <div class="kokoro_17"></div>
+            <div class="kokoro_18"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-hiden2">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+    </div>
+    <div class="page-center">
+      <div class="makimono">
+        <img src="./img/hiden/hiden2_bg.png" alt="">
+      </div>
+      <div class="main_wrap">
+        <div class="main">
+          <div class="hiden_4">
+            <img src="./img/hiden/hiden4_ttl.png" alt="">
+            <div class="kokoro_19"></div>
+            <div class="kokoro_20"></div>
+            <div class="kokoro_21"></div>
+            <div class="kokoro_22"></div>
+            <div class="kokoro_23"></div>
+            <div class="kokoro_24"></div>
+          </div>
+          <div class="hiden_5">
+            <img src="./img/hiden/hiden5_ttl.png" alt="">
+            <div class="kokoro_25"></div>
+            <div class="kokoro_26"></div>
+            <div class="kokoro_27"></div>
+            <div class="kokoro_28"></div>
+            <div class="kokoro_29"></div>
+            <div class="kokoro_30"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-siren">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+      <div class="ttl">
+        <img src="" alt="">
+      </div>
+      <div class="use">
+        <div class="nokori">
+          <div class="nokori_cnt"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <div class="txt">
+            <img src="./img/siren/siren1/txt.png" alt="">
+          </div>
+          <button class="start_btn">
+            <img src="./img/btn/siren_start.png" alt="">
+          </button>
+          <div class="result">
+            <div class="star_1"></div>
+            <div class="star_2"></div>
+            <div class="star_3"></div>
+            <div class="star_4"></div>
+            <div class="star_5"></div>
+            <div class="star_6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-siren2">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+      <div class="ttl">
+        <img src="./img/siren/siren1/ttl.png" alt="">
+      </div>
+      <div class="use">
+        <div class="nokori">
+          <div class="nokori_cnt"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-center">
+      <div class="char_wrap">
+        <div class="char">
+          <img src="./img/siren/siren1/char.png" alt="">
+        </div>
+      </div>
+      <div class="main_wrap">
+        <div class="main">
+          <div class="question_wrap">
+            <div class="q_no"><img src="./img/siren/q_no/q1.png" alt=""></div>
+            <div class="question"></div>
+            <div class="answer_wrap">
+              <button class="ans_1"></button>
+              <button class="ans_2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-kokuchi">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+      <div class="ttl">
+      </div>
+      <div class="use">
+      </div>
+    </div>
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <div class="kokuchi">
+            <img src="./img/home/gohoubi2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-ok">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+      <div class="ttl"></div>
+      <div class="use">
+        <div class="nokori">
+          <div class="nokori_cnt"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-center">
+      <div class="char_wrap">
+        <div class="char">
+          <img src="./img/siren/siren1/char.png" alt="">
+        </div>
+      </div>
+      <div class="main_wrap">
+        <div class="main">
+          <div class="ok_mark">
+            <img src="./img/siren/ok.png" alt="">
+          </div>
+          <div class="ok_wrap">
+            <div class="ok_txt"></div>
+            <button class="wakatta_btn">
+              <img src="./img/btn/btn_wakatta.png" alt="">
+            </button>
+          </div>
+          <img class="star_get" src="./img/siren/get.png" alt="">
+          <div class="result">
+            <div class="star_1"></div>
+            <div class="star_2"></div>
+            <div class="star_3"></div>
+            <div class="star_4"></div>
+            <div class="star_5"></div>
+            <div class="star_6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-ng">
+    <div class="page-header">
+      <button class="back">
+        <img src="./img/btn/btn_topBack.png" alt="">
+      </button>
+      <div class="ttl">
+        <img src="./img/siren/siren1/ttl.png" alt="">
+      </div>
+      <div class="use">
+        <div class="nokori">
+          <div class="nokori_cnt"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-center">
+      <div class="char_wrap">
+        <div class="char">
+          <img src="./img/siren/siren1/char.png" alt="">
+        </div>
+      </div>
+      <div class="main_wrap">
+        <div class="main">
+          <div class="ng_wrap">
+            <img src="./img/siren/more.png" alt="">
+            <button class="wakatta_btn">
+              <img src="./img/btn/btn_wakatta.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-item" id="page-clear">
+    <div class="bg_light_wrap">
+      <img class="bg_light" src="./img/siren//bg_light.png" alt="">
+    </div>
+    <div class="clear_back_wrap">
+      <img class="clear_back" src="./img/siren/siren1/clear_back.png" alt="">
+    </div>
+    <div class="page-header">
+      <button class="back"></button>
+      <div class="ttl">
+        <img src="./img/siren/siren1/ttl_clear.png" alt="">
+      </div>
+      <div class="use"></div>
+    </div>
+    <div class="page-center">
+      <div class="main_wrap">
+        <div class="main">
+          <img class="clear_char" src="./img/siren/siren1/clear_char.png" alt="">
+          <img class="clear_main" src="./img/siren/siren1/clear_main.png" alt="">
+          <button class="btn_clear"><img src="./img/btn/btn_clear.png" alt=""></button>
+          <button class="btn_clear2"><img src="./img/btn/btn_clear2.png" alt=""></button>
+          <button class="btn_clear3"><img src="./img/btn/clear_back.png" alt=""></button>
+        </div>
+        <img class="clear_chourou" src="./img/siren/siren3/clear_chourou.png" alt="">
+      </div>
+    </div>
+  </section>
+</main>
+</div><!-- /.wrapper-ct-vertical-fixed -->
+<footer>
+  <!-- ベネッセフッター領域 -->
+</footer>                        
+<script src="./js/plugin/jquery.min.js"></script>
+<script src="./js/plugin/howler.min.js"></script>
+<script src="./js/plugin/moment.min.js"></script>
+<script src="./js/plugin/perfect-scrollbar.min.js"></script>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
